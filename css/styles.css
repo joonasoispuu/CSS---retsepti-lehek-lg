@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+:root{
+    --headings: #24251d;
+    --text:  #101612;
+    --heading-font: 'Montserrat', sans-serif;
+    --text-font: 'Lato', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #586797;
+    font-family: var(--text-font-family);
+    color: var(--text);
+}
+.main{
+    width: 75%;
+    margin: 0 auto;
+}
+
+h1{
+    font-family: var(--heading-font);
+    color: var(--headings);
+    text-align: center;
+}
+
+h2{
+    font-family: var(--heading-font);
+    color: var(--headings);
+    
+}
+
+ .Tortilla{
+    width: 40%;
+    float: left;
+    margin-right: 2rem; 
+} 
+
+.ingredients{
+    width: 50%;
+    text-align: right; 
+    margin: 2rem auto;
+    overflow: hidden;
+}
+
+.classical_recipe  {
+    display: block;
+    width: 14%;
+    background-color: #e25aaa;
+    color: white;
+    padding: 10px 10px;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    margin: auto;
+}
+
+.classical_recipe:hover{
+    background-color: #49686d;
+}
+
+.ingredients ul{
+    float: right;
+    font-size: 20px;
+}
+
+.prep{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.bottom_container ul {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+
+.preparation ol {
+    list-style-position: inside;
+    font-size: 30px;
+}
+
+ol{
+    font-family: var(--text-font);
+}
+
+ul{
+    font-family: var(--text-font);
+    list-style-type: none;
+}
+
+.bottom-link{
+    display: inline-block;
+    font-family: var(--text-font);
+}
+
+.Button_holder{
+    margin-top: 2rem;
+}
+
+.copyright{
+    font-family: var(--heading-font);
+    text-align: center;
+    margin-top: 30px;
+    font-size: 10px;
+}
+
+.li-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.li-wrapper a {
+
+    color: var(--text);
+}
